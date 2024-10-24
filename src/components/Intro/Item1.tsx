@@ -5,7 +5,7 @@ const Item1 = () => {
   return (
     <div className="h-fit lg:min-h-[80vh] grid gap-y-12 content-between py-8 px-4 sm:px-6 sm:py-10 md:py-12 lg:py-16">
       <Reveal>
-        <h1 className="text-7xl lg:text-8xl xl:text-9xl font-black tracking-wide">
+        <h1 className="text-6xl lg:text-8xl xl:text-9xl font-black tracking-wide">
           The Design <br />
           Alchemist
         </h1>
