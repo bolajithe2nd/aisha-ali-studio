@@ -1,5 +1,5 @@
 import { ArrowUpRight } from "lucide-react";
-import React, { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 
 const CustomCursor = () => {
   const [hovered, setHovered] = useState(false);
