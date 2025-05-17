@@ -37,9 +37,9 @@ const ServiceComponent: React.FC<ServiceProps> = ({
       </div>
 
       {/* Item 2 (Text) */}
-      <div className="grid gap-y-12 content-start lg:content-between p-6 sm:p-8 md:p-10 lg:py-20 lg:px-24 h-[70vh] lg:h-screen border">
+      <div className="grid gap-y-12 md:grid-rows-[1.4fr_0.6fr] content-start p-6 sm:p-8 md:p-10 lg:py-20 lg:px-24 h-[70vh] lg:h-screen border">
         {/* Item 1 */}
-        <div className="grid gap-y-4">
+        <div className="grid gap-y-4 content-start">
           <Reveal>
             <h1 className="text-6xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-9xl font-black uppercase tracking-tight">
               {title}
@@ -52,7 +52,7 @@ const ServiceComponent: React.FC<ServiceProps> = ({
           </Reveal>
         </div>
 
-        <div className="grid gap-y-4 mt-8 lg:mt-0">
+        <div className="grid content-start gap-y-4 mt-8 lg:mt-0">
           <PlayFairText>({title} Services)</PlayFairText>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-2 sm:gap-y-0">
             {services.map((service, index) => (
